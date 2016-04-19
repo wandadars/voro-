@@ -1,0 +1,8 @@
+The voronoi data has the following information contained in it
+
+Particle ID Number, x,y,z, radius, Number of Voronoi Faces, voronoi volume, Centroid of voronoi cell
+
+
+to generate an image use:
+../../../povray-3.7-stable/unix/povray +H2160 +W2160 +A0.00001 +R9
++Oimport.png sphereCenters.pov

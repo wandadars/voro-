@@ -1,0 +1,3 @@
+To generate an image use the provided spherecenters.pov file & play with the parameters if necessary.
+
+../../../povray-3.7-stable/unix/povray +H1080 +W1080 +A0.0001 +R9 +Oimport.png sphereCenters.pov

@@ -1,0 +1,1 @@
+povlogo.o: base/font/povlogo.cpp

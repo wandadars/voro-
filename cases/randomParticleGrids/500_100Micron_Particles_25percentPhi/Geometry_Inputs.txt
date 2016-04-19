@@ -1,0 +1,9 @@
+Lx:  1.6879323044329399e-03 
+Ly:  8.0000000000000004e-04 
+Lz:  8.0000000000000004e-04 
+
+Sphere Diameter:  1.0000000000000000e-04 
+Closest Allowable Sphere Distance:  1.0500000000000000e-04 
+Number of Particles:  5.0000000000000000e+02 
+Volume Fraction:  2.5000000000000000e-01 
+Closest a Sphere can get to a wall:  5.0000000000000004e-06 

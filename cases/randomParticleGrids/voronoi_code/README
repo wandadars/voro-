@@ -1,0 +1,22 @@
+Voro++ basic example codes
+==========================
+These programs demonstrate some basic usage of the Voro++ library.
+
+1. import.cc demonstrates the ability of the code to import a list of particles
+from a text file. The code imports a text file called 'pack_ten_cube' which
+contains a thousand particles in a cube of side length 10. Each line of this
+file has the form:
+
+<Numerical ID> <x coordinate> <y coordinate> <z coordinate>
+
+The code imports the particles into the container, and then saves the particles
+and Voronoi cells in gnuplot and POV-Ray formats. To visualize the particles in
+gnuplot, use the command:
+
+splot 'pack_ten_cube' u 2:3:4 with points, 'pack_ten_cube.gnu' with lines
+
+To create a POV-Ray rendering of the particles, the scene header file
+import.pov must be used, which includes the output from the program. To render
+an 800x600 image with antialiasing, use the command:
+
+povray +W800 +H600 +A0.01 +Oimport.png import.pov

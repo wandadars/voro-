@@ -1,0 +1,10 @@
+do a module load povray on HiperGator
+
+go to unix folder
+./prebuild.sh
+cd ..
+./configure COMPILED_BY="Chris Neal chrisneal@ufl.edu"
+make
+make install
+
+the binary is in the unix folder

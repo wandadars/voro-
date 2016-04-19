@@ -1,0 +1,3 @@
+disp_sdl.o: disp_sdl.cpp ../config.h
+
+../config.h:
